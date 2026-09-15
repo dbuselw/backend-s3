@@ -13,8 +13,8 @@ import java.util.Map;
 @RestController
 public class S3Controller {
 
-    private static final String BUCKET = "cmtr-ooyx672z";
-    private static final String KEY = "data.txt";
+    private static final String BUCKET = "kuberocketci-applications-data";
+    private static final String KEY = "cmtr-ooyx672z/data.txt";
 
     private final S3Client s3Client;
 
